@@ -5,20 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-        <nav>
-            <img src="./chat.jpg" alt="Logo of the Chat application" class="logo">
-        </nav>
-        <div class="container">
-            <div class="message left"> 
-                Abhi: Hey    
-            </div>
-            <div class="message right"> 
-                Riya: Hello
-            </div>
-            </div>               
+    <div>
+        <img src="./chat.jpg" alt="Logo of the Chat application" class="logo">
+    </div>
+    <div class="container">
+    </div>
+    </div>               
     <div class="send">
         <form action="#" id="send-container">
             <input type="text" name="messageInput" id="messageInput" , placeholder="Enter your message">

@@ -1,6 +1,6 @@
 body{
     background-image: linear-gradient(rgb(255,255,255), rgb(33, 76, 192));
-    height: 1080px;
+    height: 97.7vh;
 }
 .logo{
     display: block;
@@ -14,6 +14,7 @@ body{
     height: 60vh;
     margin: auto;
     border-radius: 5px;
+    overflow-y: auto;
 }
 
 .left{
